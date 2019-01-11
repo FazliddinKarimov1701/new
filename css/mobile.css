@@ -1,0 +1,74 @@
+@media screen and (max-width: 768px){
+	#header{
+		justify-content: space-between;
+		padding: 0 50px;
+		width: 100%;
+	}
+	#logo{
+		margin: 0;
+		padding: 0;
+	}
+	#hidden-menu{
+		display: block;
+		border: 2px solid #0000008c;
+		border-radius: 50%;
+		width: 30px;
+		height: 30px;
+		text-align: center;
+		line-height: 30px;
+	}
+	#menu > ul{
+		display: none;
+		position: absolute;
+		padding-top: 50px;
+		background-color: white;
+	}
+	#menu-icon{
+		display: none;
+	}
+	#footer-menu{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;	
+	}
+	#footer-menu > ul{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}	
+	#footer-icon{
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+	}
+	#yakun{
+		display: flex;
+		flex-direction: column;
+	}
+	#main_link > img{
+		max-width: 70%;
+	}
+	#main_link{
+		text-align: center;
+		color: white;
+	}
+	#ish_link{
+		padding: 10px;
+		text-align: center;
+	}
+	#pro_link > img{
+		min-width: 100%;
+	}
+	#bolimlar_link > div{
+		width: 100%;
+	}
+	#footer-icon{
+		text-align: center;
+	}
+	#yakun{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+}

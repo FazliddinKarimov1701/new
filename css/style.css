@@ -1,0 +1,311 @@
+/* Umumiy qism */
+body {
+	margin: 0;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	font-family: 'Courgette', cursive;
+}
+header{
+	width: 100%;
+}
+
+/* Header */
+
+#header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 150px;
+	padding-right: 200px;
+	z-index: 9999;
+}
+
+#menu > ul > li:hover {
+	cursor: pointer;
+}
+#menu > ul > li > a{
+	color: white;
+}
+#header {
+	position: fixed;
+	width: 80%;
+}
+
+#home {
+	background: linear-gradient(180deg , #00000061 , #00000061 , #00000061) , url(../img/bg.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+
+/*#main_link > div {
+	margin-left: 20px;
+}*/
+
+#main_link > img {
+	border-radius: 20px;
+	max-width: 450px;
+	width: 100%;
+	margin-right: 20px;
+}
+
+#main_link > div > button {
+	border-radius: 5px;
+	outline: none;
+	color: #ffffff;
+	background-color: #0e82de;
+	border: 1px solid #0e82be;
+	width: 120px;
+	height: 40px;
+}
+
+#main_link > div > button:hover {
+	background-color: #0e82beb0;
+	color: white;
+}
+
+#main_link {
+	padding-top: 210px;
+	padding-bottom: 200px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	line-height: 1.5;
+	color: white;
+}
+
+#logo > img {
+	max-width: 100px;
+}
+
+#menu > ul {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 600px;
+}
+
+#menu-icon {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 120px;
+}
+
+#menu-icon > a > i {
+	width: 30px;
+	height: 30px;
+	font-size: 17px;
+	text-align: center;
+	line-height: 30px;
+}
+
+.face {
+	color: blue;
+}
+
+.teleg {
+	color: white;
+}
+
+.twit {
+	color: white;
+}
+
+/* Main */
+.up {
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border: 1px solid black;
+	font-size: 19px;
+	position: fixed;
+	bottom: 30px;
+	right: 25px;
+}
+
+/* Animatsiya */
+.up {
+	background-color: dodgerblue;
+	color: white;
+	border: 1px solid dodgerblue;
+	box-shadow: 0 0 0 0 rgba(#5a99d4, .5);
+}
+
+#beginner_link {
+	text-align: center;
+	line-height: 1.5;
+	padding: 50px 0;
+}
+
+#loyiha_sarlavha {
+	text-align: center;
+	box-shadow: 0 0 1px 1px #808080cf;
+	margin-top: 20px;
+	padding: 7px 0;
+}
+
+#pro_link {
+	text-align: center;
+	margin: 50px 100px;
+}
+
+#pro_link > img {
+	width: 30%;
+}
+
+#my_video_link {
+	text-align: center;
+}
+
+#my_video_link > h1 {
+	box-shadow: 0 0 1px 1px #808080cf;
+	padding: 20px 0;
+}
+
+#my_video_link > video {
+	width: 90%;
+	height: 650px
+}
+
+#ish_link {
+	background: black url(../img/bg3.webp);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 100px;
+	color: white;
+}
+
+progress[value]{
+	-webkit-appearance: none;
+   appearance: none; 
+}
+progress {
+  	height: 20px;
+	width: 60%;
+/* 	background: red; */
+	border-radius: 10px;
+	border: 1px solid;
+}
+progress::-webkit-progress-bar {	
+  background-color: #8080803d;
+	border-radius: 10px;
+}
+progress::-webkit-progress-value {
+ 	background: linear-gradient(150deg , #ec1c24 , #fdbd10 , #0066b2 , #ed7902);
+	border-radius: 10px;
+}
+
+#bolimlar_link {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 50px 100px;
+	max-width: 90%;
+	flex-wrap: wrap;
+}
+
+#bolimlar_link > div {
+	text-align: center;
+	width: 20%;
+	margin: 5px 0;
+	padding: 30px 0;
+	box-shadow: 2px 2px 2px 2px #8080809c;
+	border: 1px solid #808080a3;
+}
+
+#bolimlar_link > div:hover {
+	box-shadow: none;
+}
+
+#bolimlar_link > div > i {
+	font-size: 40px;
+}
+
+#bolimlar {
+	margin-top: 70px;
+	padding: 30px 0;
+	background-image: url(../img/bg4.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#sarlavha {
+	text-align: center;
+	box-shadow: 0 0 1px 1px #808080cf;
+	margin-top: 50px;
+	padding: 7px 0;
+}
+
+#tugatuvchi {
+	text-align: center;
+}
+
+.up {
+	z-index: 999999;
+}
+
+#container {
+	position: relative;
+	margin: 15px; 
+}
+#yakun{
+	display: flex;
+	color: white;
+	align-items: center;
+	justify-content: center;
+}
+footer{
+	padding-top: 40px;
+	padding-left: 200px;
+	padding-right: 200px;
+	padding-bottom: 10px;
+	background-color: #000000d9;
+}
+#yakuniy > p{
+	text-align: center;
+	margin: 0;
+	margin-top: 10px;
+	font-size: 20px;
+	color: white;
+}
+#hidden-menu{
+	display: none;
+}
+#footer-icon > a > i {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	font-size: 20px;
+	text-align: center;
+	line-height: 30px;
+}
+#footer-menu > ul{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	margin-right: 200px;
+}
+#footer-icon{
+	margin-left: 200px;
+}
+#footer-icon > a > i{
+	margin: 0 10px;
+}
+#footer-icon > a > i:hover{
+	transform: scale3d(1.5,1.5,1.5);
+}
