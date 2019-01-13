@@ -7,7 +7,7 @@ $(document).ready(function(){
 	   $('.face').css({background : 'blue' , border: '1px solid grey' , color:'white', borderRadius : '50%' , transition : '1s'})
 	   $('.teleg').css({background : 'dodgerblue' , border: '1px solid grey' , color:'white', borderRadius : '50%' , transition : '1s'})
 	   $('.twit').css({background : 'dodgerblue' , border: '1px solid grey' , color:'white', borderRadius : '50%' , transition : '1s'})
-	   $('#menu > ul > li > a').css({color : 'black' , transition : '1.5s'});
+	   $('#menu > ul > li').css({color : 'black' , transition : '1.5s'});
 	  } else{
 	   $('#header').css({background: 'transparent' , color: 'white' , boxShadow: 'none',transition: '1.5s'})
 	   $('#menu > ul > li > a').css({color : 'white' , transition : '1.7s'});
@@ -35,8 +35,18 @@ $(document).ready(function(){
 	$('#hidden-menu').click(function(){
 		$('#menu > ul').slideToggle(450)
 	});
+	$('#contact_btn').click(function(){
+		$("html , body").animate({ scrollTop : 3848  },900)
+	});
+	$(window).scrollTop(function(){
+		var t = $(window).scrollTop();
+		if (t === 621) {
+			$('#haqida').css({background : 'blue' , color : 'white'});
+		}else{
+			console.log('false')
+		}
+	});
 })
-
 
 
 
