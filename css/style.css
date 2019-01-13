@@ -59,21 +59,6 @@ header{
 	margin-right: 20px;
 }
 
-#main_link > div > button {
-	border-radius: 5px;
-	outline: none;
-	color: #ffffff;
-	background-color: #0e82de;
-	border: 1px solid #0e82be;
-	width: 120px;
-	height: 40px;
-}
-
-#main_link > div > button:hover {
-	background-color: #0e82beb0;
-	color: white;
-}
-
 #main_link {
 	padding-top: 210px;
 	padding-bottom: 200px;
@@ -149,7 +134,13 @@ header{
 	line-height: 1.5;
 	padding: 50px 0;
 }
+#beginner_link > h1{
+	box-shadow: 0 0 2px 2px #808080b3;
+	padding: 10px 0;
+}
+/*#beginner_link > h1:hover{
 
+}*/
 #loyiha_sarlavha {
 	text-align: center;
 	box-shadow: 0 0 1px 1px #808080cf;
@@ -184,10 +175,21 @@ header{
 	background: black url(../img/bg3.webp);
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding: 100px;
+	padding: 50px 0;
 	color: white;
 }
+#ish_link > div {
+	padding: 0 100px;
+}
 
+#xizmatlar_title{
+	background: #ffffffc9;
+	text-align: center;
+	padding: 10px 0;
+	box-shadow:  0 0 2px 2px #808080cf;
+	color: black;
+
+}
 progress[value]{
 	-webkit-appearance: none;
    appearance: none; 
@@ -223,11 +225,16 @@ progress::-webkit-progress-value {
 	margin: 5px 0;
 	padding: 30px 0;
 	box-shadow: 2px 2px 2px 2px #8080809c;
-	border: 1px solid #808080a3;
+	border: 1px solid blue;
+	color: blue;
+	transition: 1.5s;
 }
 
 #bolimlar_link > div:hover {
 	box-shadow: none;
+	background: blue;
+	color: white;
+	transition: 1.5s;
 }
 
 #bolimlar_link > div > i {
@@ -237,7 +244,6 @@ progress::-webkit-progress-value {
 #bolimlar {
 	margin-top: 70px;
 	padding: 30px 0;
-	background-image: url(../img/bg4.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -308,4 +314,52 @@ footer{
 }
 #footer-icon > a > i:hover{
 	transform: scale3d(1.5,1.5,1.5);
+}
+form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 1px solid grey;
+	margin: 50px 450px;
+	padding: 30px;
+	border-radius: 5px;
+}
+form > input{
+	width: 220px;
+	height: 30px;
+	margin: 15px 0;
+	padding: 5px;
+	border: 1px solid blue;
+}
+textarea{
+	padding: 5px;
+	border: 1px solid blue;
+	margin: 15px 0;
+}
+#send{
+	width: 120px;
+	height: 30px;
+	background: white;
+	border: 1px solid blue;
+	transition: 0.5s;
+	color: blue;
+}
+#send:hover{
+	background: blue;
+	color: white;
+	transition: 0.5s;
+}
+#contact_btn{
+	width: 120px;
+	height: 35px;
+	background: #ffffff77;
+	border: 1px solid blue;
+	color: blue;
+	transition: 0.5s;
+	border-radius: 3px;
+}
+#contact_btn:hover{
+	background: blue;
+	color: white;
+	transition: 0.5s;
 }
